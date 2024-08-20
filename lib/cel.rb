@@ -4,5 +4,5 @@ require_relative "cel/version"
 
 module Cel
   class Error < StandardError; end
-  # Your code goes here...
+  class Engine < Rails::Engine; end
 end
